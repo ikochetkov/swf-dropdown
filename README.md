@@ -1,11 +1,11 @@
-Dropdown
+SWF-Dropdown
 ===============================================
 Customized dropdown list, inherits default behavior of now-dropdown component and allows to search through choice list.
 To enable search add property search="contains"
 
 How to use:
-1. Install component: npm install @storeworkflows/dropdown
-2. add to your file: import "@storeworkflows/dropdown"
+1. Install component: npm install @storeworkflows/swf-dropdown
+2. add to your file: import "@storeworkflows/swf-dropdown"
 3. Example usage:
 
     <swf-dropdown 

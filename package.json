@@ -1,13 +1,13 @@
 {
-	"name": "@storeworkflows/dropdown",
-	"version": "0.0.3",
+	"name": "@storeworkflows/swf-dropdown",
+	"version": "0.0.1",
 	"private": false,
 	"description": "Dropdown",
 	"keywords": [
 		"ServiceNow",
 		"StoreWorkflows",
 		"Now Experience UI Component",
-		"dropdown"
+		"SWF-Dropdown"
 	],
 	"scope": "@storeworkflows",
 	"readme": "./README.md",
@@ -17,17 +17,17 @@
 	},
 	"module": "src/index.js",
 	"dependencies": {
-		"@servicenow/ui-core": "paris",
-		"@servicenow/ui-renderer-snabbdom": "paris",
+		"@servicenow/behavior-focus": "^18.4.2",
+		"@servicenow/behavior-key-binding": "^18.4.2",
 		"@servicenow/cli-archetype": "18.0.0",
 		"@servicenow/cli-component-archetype": "18.0.0",
-		"@servicenow/sass-theme": "paris",
-		"@servicenow/sass-kit": "paris",
 		"@servicenow/library-translate": "paris",
-		"@servicenow/behavior-key-binding": "^18.4.2",
-		"@servicenow/behavior-focus": "^18.4.2",
 		"@servicenow/now-avatar": "^18.4.2",
-		"@servicenow/now-icon": "^18.4.2"
+		"@servicenow/now-icon": "^18.4.2",
+		"@servicenow/sass-kit": "paris",
+		"@servicenow/sass-theme": "paris",
+		"@servicenow/ui-core": "paris",
+		"@servicenow/ui-renderer-snabbdom": "paris"
 	},
 	"devDependencies": {
 		"@servicenow/cli-archetype-dev": "18.0.0",
