@@ -17,6 +17,7 @@
 
 .now-dropdown-list {
 	display: flex;
+	position: fixed;
 	flex-direction: column;
 	height: inherit;
 	max-height: 300px;
