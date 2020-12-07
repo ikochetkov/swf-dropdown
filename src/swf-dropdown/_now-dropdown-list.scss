@@ -17,7 +17,6 @@
 
 .now-dropdown-list {
 	display: flex;
-	position: fixed;
 	flex-direction: column;
 	height: inherit;
 	max-height: 300px;
@@ -29,6 +28,7 @@
 	background-color: RGB($now-dropdown-list--background-color);
 	outline: none;
 	@include now-mx-inherits;
+	position: absolute;
 
 	.now-line-height-crop {
 		@include now-mx-line-height-crop;

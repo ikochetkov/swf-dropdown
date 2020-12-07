@@ -274,7 +274,7 @@ createEnhancedElement('swf-dropdown', {
 		items: {
 			required: true,
 			schema: itemsSchema,
-			default: [] //{ id: "1", label: "Alaska" }, { id: "2", label: "Alaska2" }
+			default: [{ id: "1", label: "Alaska" }, { id: "2", label: "Alaska2" }] //{ id: "1", label: "Alaska" }, { id: "2", label: "Alaska2" }
 		},
 		/**
 		 * An array of ids representing selected dropdown panel items. If multi-select mode is
