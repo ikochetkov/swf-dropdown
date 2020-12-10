@@ -29,6 +29,7 @@
 	outline: none;
 	@include now-mx-inherits;
 	position: absolute;
+	z-index: 1000;
 
 	.now-line-height-crop {
 		@include now-mx-line-height-crop;
